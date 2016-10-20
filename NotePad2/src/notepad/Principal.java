@@ -2,7 +2,7 @@
 package notepad;
 
 //-----------------------------
-import Funcionalidad.Archivo;
+import Archivo.Archivo;
 import Edicion.Reemplazar;
 import Edicion.Claseprincipal;
 import java.awt.Font; 
@@ -16,8 +16,8 @@ import javax.swing.event.UndoableEditEvent;
 import javax.swing.event.UndoableEditListener;
 import javax.swing.undo.CannotUndoException;
 import javax.swing.undo.UndoManager;
-import jnotepad.Form_Acercadejnotepad;
-import jnotepad.Form_Verayuda;
+import Ayuda.Form_Acercadejnotepad;
+import Ayuda.Form_Verayuda;
 //-----------------------------
 
 
